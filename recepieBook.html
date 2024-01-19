@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECEPIE BOOK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <style>
+        header{
+            border: 2px solid blue;
+            background-color:blue;
+            color: white;
+            text-align: center;
+        }
+        nav{
+            background-color: black;
+            border: 4px solid black;
+            padding: 3px;
+        }
+        nav>a>li{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+            padding: 100px;
+            font-size: xx-large;
+            color: wheat;
+            
+        }
+        section{
+            background-color: blanchedalmond;
+        }
+        .recepie1{
+            border: 2px solid black;
+            width: fit-content;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 20px;
+
+           
+        }
+        .recepie2{
+            border: 2px solid black;
+            width: fit-content;
+            margin-left: 400px;
+            margin-bottom: 100px;
+           
+        }
+        .recepie3{
+            border: 2px solid black;
+            width: fit-content;
+            margin-left: 600px;
+        }
+        .container>div>a{
+            text-decoration: none;
+            text-align: center;
+        }
+        a{
+            text-align: center;
+        }
+        footer{
+            
+            margin-top: 20px;
+            text-align: center;
+            background-color: lightgreen;
+
+        }
+        .container,label,details{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="home"><i>Welcome to Ravis<sp>'s</sp> Recipe Book</i></h1>
+    </header>
+    <nav>
+        <a href="#BreakFast"><li><i>BreakFast</i></li></a>
+        <a href="#lunch"><li><i>Lunch</i></li></a>
+        <a href="#dinner"><li><i>Dinner</i></li></a>
+        <input type="text" list="recepie" name="recepie"  placeholder="Search Recepie..">
+        <datalist id="recepie">
+            <option selected>search</option>
+            <option value="dosa">Dosa</option>
+            <option value="idli">idli</option>
+            <option value="upma">upma</option>
+            <a href="pappu.html"><option value="dal">dal</option></a>
+            <option value="sambar">sambar</option>
+            <option value="curd Rice">curd rice</option>
+            <option value="poha">poha</option>
+            <option value="fruit salad">fruit salad</option>
+        </datalist>
+    </nav><br>
+    <section>
+    <div class="container">
+        <label >BreakFast</label>
+        <details>
+        <summary></summary>
+        <div class="recepie1">
+            <h1 id="BreakFast">BreakFast</h1>
+            <img src="./Images/breakFast.jpg" class=""><br>
+            <a href="idli.html" target="_blank">idli</a><br>
+            <a href="dosa.html"target="_blank">Dosa</a><br>
+            <a href="vada.html" target="_blank">vada</a><br>
+            <a href="upma.html" target="_blank">Upma</a><br>
+        </div></details><br>
+        <label >Lunch</label>
+        <details><summary></summary>
+        <div class="recepie2">
+            <h1 id="lunch">Lunch</h1>
+            <img src="./Images/lunch.jpg" class=""><br>
+            <a href="pappu.html">Pappu</a><br>
+            <a>Sambar</a><br>
+            <a>Gutthi vankaya</a><br>
+            <a>Gongura</a><br>
+        </div></details><br>
+        <label >Dinner</label>
+        <details>
+            <summary></summary>
+        <div class="recepie3">
+            <h1 id="dinner">Dinner</h1>
+            <img src="./Images/dinner.jpg" class=""><br>
+            <a href="./Images/curd.jpg" target="_blank">curd rice</a><br>
+            <a>curd poha</a><br>
+            <a href="upma.html">upma</a><br>
+            <a>fruits salad</a><br>
+        </div></details>
+    </div>
+    </section>
+    <footer>
+    <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram" style="font-size: xx-large;text-decoration: none;"> </a><br><br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ff1v3DWdJfU?si=4oARQ_hQDivQlbhp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
+    <button><a href="#home" style="text-decoration: none;">HOME</a></button>
+    </footer>   
+</body>
+</html>
